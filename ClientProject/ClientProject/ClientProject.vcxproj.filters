@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Src\main.cpp" />
+    <ClCompile Include="..\Src\Renderer.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\NetworkManager.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Enemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Button.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Entity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Boss.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Bullet.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Chat.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Renderer.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\NetworkManager.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Enemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Button.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Entity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Boss.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Bullet.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Chat.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Messages.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\checkML.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{2592df9a-5f94-4c45-89ae-06173af88745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{69d37dfc-b4b8-4ba2-a887-c1f6052e00cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{d28d595c-9a76-40c4-bb6a-5a90ece6c67e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
